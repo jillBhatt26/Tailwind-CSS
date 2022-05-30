@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- built css -->
+        <link
+            rel="stylesheet"
+            href="./css/dist/index.css"
+            type="text/css"
+            media="screen"
+        />
+
+        <title>Ninja Recipes</title>
+    </head>
+    <body class="text-gray-600 font-body">
+        <!-- content wrapper -->
+        <div class="grid md:grid-cols-3">
+            <div class="md:col-span-1">
+                <!-- nav -->
+                <nav>
+                    <div
+                        class="font-bold uppercase p-4 border-b border-gray-100"
+                    >
+                        <a href="index.html">
+                            <h1>Food Ninja</h1>
+                        </a>
+                    </div>
+                    <ul>
+                        <li class="text-gray-700 font-bold">
+                            <a href="#">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- nav ends -->
+            </div>
+
+            <!-- main -->
+            <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+                <!-- secondary nav -->
+                <div class="flex justify-center md:justify-end space-x-6">
+                    <a
+                        href="#"
+                        class="btn text-primary border-primary md:border-2"
+                        >Login</a
+                    >
+                    <a
+                        href="#"
+                        class="btn text-primary border-primary md:border-2"
+                        >Signup</a
+                    >
+                </div>
+                <!-- secondary nav ends -->
+
+                <header>
+                    <h2 class="text-gray-700 text-6xl font-semibold">
+                        Recipes
+                    </h2>
+                    <h3 class="text-2xl font-semibold">For Ninjas</h3>
+                </header>
+
+                <!-- recipes -->
+                <div>
+                    <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">
+                        Latest Recipes
+                    </h4>
+
+                    <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                        <!-- card -->
+                        <!-- NOTE: Overflow hidden will hide all the items overflowing the parent div -->
+                        <!-- <div class="card col-span-2"> -->
+                        <div class="card">
+                            <img
+                                src="./assets/img/stew.jpg"
+                                alt="Stew"
+                                class="w-full h-32 md:h-48 object-cover"
+                            />
+                            <div class="m-4">
+                                <span class="font-bold"
+                                    >5 bean chilly stew</span
+                                >
+                                <span class="block text-gray-500 text-sm"
+                                    >Recipe by Mario</span
+                                >
+                            </div>
+                            <div class="badge">
+                                <svg
+                                    class="w-5 inline-block"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    ></path>
+                                </svg>
+                                <span>25 mins</span>
+                            </div>
+                        </div>
+                        <!-- card ends -->
+                        <div class="card">
+                            <img
+                                src="./assets/img/noodles.jpg"
+                                alt="Noodles"
+                                class="w-full h-32 md:h-48 object-cover"
+                            />
+                            <div class="m-4">
+                                <span class="font-bold"
+                                    >5 bean chilly stew</span
+                                >
+                                <span class="block text-gray-500 text-sm"
+                                    >Recipe by Mario</span
+                                >
+                            </div>
+                            <div class="badge">
+                                <svg
+                                    class="w-5 inline-block"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    ></path>
+                                </svg>
+                                <span>25 mins</span>
+                            </div>
+                        </div>
+                        <!-- card ends -->
+                        <div class="card">
+                            <img
+                                src="./assets/img/curry.jpg"
+                                alt="Curry"
+                                class="w-full h-32 md:h-48 object-cover"
+                            />
+                            <div class="m-4">
+                                <span class="font-bold"
+                                    >5 bean chilly stew</span
+                                >
+                                <span class="block text-gray-500 text-sm"
+                                    >Recipe by Mario</span
+                                >
+                            </div>
+                            <div class="badge">
+                                <svg
+                                    class="w-5 inline-block"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    ></path>
+                                </svg>
+                                <span>25 mins</span>
+                            </div>
+                        </div>
+                        <!-- card ends -->
+                    </div>
+
+                    <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">
+                        Most Popular
+                    </h4>
+
+                    <div class="mt-8">
+                        <!-- cards go here -->
+                    </div>
+
+                    <div class="flex justify-center">
+                        <div class="btn bg-secondary-100 text-secondary-200">
+                            Load more
+                        </div>
+                    </div>
+                </div>
+
+                <!-- recipes ends -->
+            </main>
+            <!-- main ends -->
+        </div>
+        <!-- content wrapper ends -->
+    </body>
+</html>

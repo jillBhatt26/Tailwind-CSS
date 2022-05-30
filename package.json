@@ -1,0 +1,15 @@
+{
+    "name": "tailwind-css",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "tailwind:watch": "npx tailwindcss -i ./css/src/index.css -o ./css/dist/index.css --watch",
+        "tailwind:build": "npx tailwindcss -i ./css/src/index.css -o ./css/dist/index.css",
+        "live:serve": "live-server ./ --port=3000 --watch=./*.html"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.2",
+        "tailwindcss": "^3.0.24"
+    }
+}
