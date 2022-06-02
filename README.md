@@ -1,4 +1,4 @@
-# React-Query
+# Tailwind CSS
 
 ### NOTE: [App is inspired by The Net Ninja's tailwind css course along with a few modifications including the latest version](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
 
